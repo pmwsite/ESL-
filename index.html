@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Pam's Final Project</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    </script>
+</head>
+
+<body>
+
+
+<div class="outsideContainer">
+
+    <header class="hero">
+        <div class="logo_block">
+            <h1 id="home">ESL Resourses</h1>
+        </div>
+
+        <nav>
+            <ul class="mainNav">
+                <li class="navBtns"><a href="#home">Home</a></li>
+                <li class="navBtns"><a href="#CaT">Classes and Tutoring</a></li>
+                <li class="navBtns"><a href="#oc">Online Courses</a></li>
+                <li class="navBtns"><a href="#ap">Apps</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="tagline">
+            Your source for learning English in the Washington, DC area
+        </div>
+
+
+    <main class="mainSiteContent">
+        <section class="classesAndTutoring">
+            <h1 class="hdr" id="CaT">Classes and Tutoring</h1>
+            <article class="data_block">
+              <header>
+                <h1><a href="http://www.washingtonenglish.org/" class="showAlways tooltip" data-tooltip-content="#tooltip_wec">Washington English Center</a>
+                </h1>
+              </header>
+              <div class="tooltip_templates">
+                <div id="tooltip_wec">
+                  <p>2200 California Street, NW<br>
+                    Washington, DC 20008<br>
+                    (202) 387-2222<br></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="data_block">
+                <header>
+                    <h1><a href="http://www.lcnv.org/" class="showAlways tooltip" data-tooltip-content="#tooltip_lcnv">Literacy Council of Northern Virginia</a>
+                    </h1>
+                </header>
+                <div class="tooltip_templates">
+                <div id="tooltip_lcnv">
+                  <p>2855 Annandale Road #114<br>
+                    Falls Church, VA 22042<br>
+                    (703) 237-0866<br></p>
+                </div>
+              </div>                    
+            </article>
+
+            <article class="data_block">
+                <header>
+                    <h1><a href="https://alexlibraryva.org/client/en_US/home" class="showAlways tooltip" data-tooltip-content="#tooltip_al">Alexandria Library</a></h1>
+                </header>
+                <div class="tooltip_templates">
+                <div id="tooltip_al">
+                  <p>5005 Duke Street<br>
+                    Alexandria, VA 22304<br>
+                    (703) 746-1702<br></p>
+                </div>
+              </div>    
+            </article>
+
+            <article class="data_block">
+                <header>
+                    <h1><a href="https://www.dclibrary.org/mlk" class="showAlways tooltip" data-tooltip-content="#tooltip_mlk">Dr. Martin Luther King Jr Memorial Library</a></h1>
+                </header>
+                <div class="tooltip_templates">
+                <div id="tooltip_mlk">
+                  <p>901 G Street, NW<br>
+                    Washington, DC 20001<br>
+                    (202) 727-0321<br></p>
+                </div>
+              </div>     
+            </article>
+
+            <article class="data_block">
+                <header>
+                    <h1><a href="http://www.icls.edu/" class="showAlways tooltip" data-tooltip-content="#tooltip_icls">International Center for Language Studies</a></h1>
+                </header>
+                <div class="tooltip_templates">
+                <div id="tooltip_icls">
+                  <p>1133 15th Street, NW #600<br>
+                    Washington, DC 20005<br>
+                    (202) 639-8800<br></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="data_block">
+                <header>
+                    <h1><a href="http://wearecasa.org/contact/" class="showAlways tooltip" data-tooltip-content="#tooltip_casa">Casa de Maryland</a></h1>
+                </header>
+                <div class="tooltip_templates">
+                <div id="tooltip_casa">
+                  <p>8151 15th Avenue<br>
+                    Hyattsville, MD 20783<br>
+                    (301) 431-4185<br></p>
+                </div>
+              </div>
+            </article>
+        </section>
+
+        <section class="onlineCourses">
+            <h1 id="oc">Online Courses</h1>
+            <p>Too busy to attend a class? Try one of these online programs.</p>
+            <ul class="online">
+                <li><a class="btn" href="https://www.italki.com/home">italki</a></li>
+                <li><a class="btn" href="https://wyzant.com">Wyzant</a></li>
+                <li><a class="btn" href="https://learn.abaenglish.com">ABA English</a></li>
+            </ul>
+        </section>
+
+        <section class="apps" id="ap">
+            <h1>Apps</h1>
+            <p>Learn English on your phone or tablet!</p>
+            <ul class="ThreeApps">
+                <li><a class="btn" href="https://www.duolingo.com/">Duolingo</a></li>
+                <li><a class="btn" href="https://www.memrise.com/">Memrise</a></li>
+                <li><a class="btn" href="http://www.fluentu.com/">FluentU</a></li>
+            </ul>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; ESL Resources</p>
+    </footer>
+
+</div>
+
+</body>
+
+</html>

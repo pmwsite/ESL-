@@ -1,0 +1,211 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #999900;
+}
+
+.outsideContainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+	background-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 2px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header nav .navBtns {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 20px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.logo_block {
+	width: 500px;
+	float: left;
+	display: inline-block;
+	clear: both;
+}
+
+.logo_block h1 {
+	margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+}
+
+.tagline {
+	font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    /*float: left;*/
+    clear: left;
+    width: 1200px;
+    /*margin: 0 auto;*/
+}
+
+.mainSiteContent {
+	clear: both;
+	padding: 0;
+}
+
+.showAlways {
+	width: 200px;
+	height: 200px;
+	/*overflow: hidden;*/
+}
+
+.tooltip_templates {
+  display: none;
+}
+
+.datablock {
+	display: inline-block;
+}
+
+.classesAndTutoring {
+	/*background: url('../images/world-map.jpg') no-repeat;
+	background-size: cover;
+	padding: 20px;*/
+	background: url('../images/tutor1.jpg') no-repeat;
+	background-size: cover;
+	padding: 20px;
+  text-align: center;
+}
+
+.hdr {
+  text-align: left;
+}
+
+.classesAndTutoring article header h1 {
+	font-size: 22px;
+  margin: 0;
+}
+
+.classesAndTutoring article {
+ background-color: #CCCC00;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    border-radius: 12px;
+    width: 27%/*30%*/;
+    height: 75px/*90px*/;
+    overflow: hidden;
+    margin: 10px 30px/*20px*/;
+}
+
+.classesAndTutoring a {
+	padding: 0;
+	text-decoration: none;
+}
+
+.onlineCourses {
+	padding: 20px;
+	background: #D6D6D6;
+}
+
+.onlineCourses p {
+	font-size: 20px;
+}
+
+.online {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.online li {
+	display: inline-block;
+}
+
+.online a {
+	text-decoration: none;
+}
+
+.btn {
+	color: black;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  text-align: center;
+  background-color: #939393;
+}
+
+
+
+.apps {
+	padding: 45px;
+	/*margin-bottom: 30px;*/
+	background: #eee;
+	background: url('../images/smartphone.jpg') no-repeat;
+	background-size: cover;
+	/*background-position: right;*/
+}
+
+.apps p {
+	font-size: 20px;
+}
+
+.ThreeApps {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ThreeApps li {
+	display: inline-block;
+}
+
+.ThreeApps a {
+	text-decoration: none;
+}
+
+/*footer {
+	font-family: 'Merriweather', serif;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    width: 1200px;
+
+}*/
